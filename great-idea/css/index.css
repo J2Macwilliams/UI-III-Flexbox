@@ -281,3 +281,40 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+/* Services CSS */
+h1{
+  font-size: 20px;
+  padding: 2%;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.service-item{
+  width: 45%;
+  height: 45%;
+  margin:12px;
+  padding: 2%;
+  border:1px solid grey;
+  background-color: lightgray;
+  /* display: flex;
+  align-items: center; */
+}
+.service-item button{
+  padding: 2%;
+}
+
+.bottom {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-item{
+  padding:2%;
+}
