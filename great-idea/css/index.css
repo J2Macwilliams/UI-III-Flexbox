@@ -282,6 +282,7 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+/*************** Services Doc ***********************/
 
 /* Services Header */
 .services-header-img{
@@ -292,10 +293,10 @@ footer {
 /* Services CSS */
 h1{
   font-size: 25px;
-  
 }
-span {
+.intro {
   display: flex;
+  align-items: space-between;
 
 }
 .services {
