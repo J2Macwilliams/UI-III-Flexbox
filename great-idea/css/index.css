@@ -281,6 +281,12 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Seervices Header */
+.services-header-img{
+  margin: 15px;
+}
+
 /* Services CSS */
 h1{
   font-size: 20px;
@@ -288,7 +294,7 @@ h1{
 }
 .services {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -300,11 +306,18 @@ h1{
   padding: 2%;
   border:1px solid grey;
   background-color: lightgray;
-  /* display: flex;
-  align-items: center; */
+ 
+}
+.service-item p{
+  padding: 10px;
 }
 .service-item button{
-  padding: 2%;
+  border-radius: 5px;
+  width: 30%;
+  padding: 3%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .bottom {
@@ -317,4 +330,8 @@ h1{
 
 .bottom-item{
   padding:2%;
+}
+
+li{
+  padding: 8px;
 }
