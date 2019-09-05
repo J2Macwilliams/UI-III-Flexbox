@@ -343,3 +343,28 @@ h1{
 li{
   padding: 8px;
 }
+
+/* Vision Page*************/
+.hallway{
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+}
+.foresight {
+  display: flex;
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
+}
+
+.sight-items{
+  padding: 15px;
+  width: 100%;
+  border: 1px solid grey;
+  background: rgb(217, 232, 237);
+  margin: 15px;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+}
