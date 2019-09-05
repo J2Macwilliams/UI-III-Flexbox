@@ -167,6 +167,7 @@ header nav {
 
 header {
   display: flex;
+  justify-content: space-between;
 }
 
 header nav a {
@@ -282,39 +283,45 @@ footer {
   font-size: 14px;
 }
 
-/* Seervices Header */
+/* Services Header */
 .services-header-img{
-  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Services CSS */
 h1{
-  font-size: 20px;
-  padding: 2%;
+  font-size: 25px;
+  
+}
+span {
+  display: flex;
+
 }
 .services {
   display: flex;
   justify-content: space-between;
-  align-content: space-evenly;
+  align-items: space-around;
   flex-wrap: wrap;
 }
 
 .service-item{
   width: 45%;
   height: 45%;
-  margin:12px;
+  margin:10px;
   padding: 2%;
   border:1px solid grey;
   background-color: lightgray;
  
 }
-.service-item p{
+/* .service-item p{
   padding: 10px;
-}
+} */
 .service-item button{
   border-radius: 5px;
   width: 30%;
   padding: 3%;
+  margin-top: 20px;
   display: flex;
   justify-items: center;
   align-items: center;
