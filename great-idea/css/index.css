@@ -289,16 +289,16 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/* Intro */
+.intro {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
 /* Services CSS */
 h1{
   font-size: 25px;
 }
-.intro {
-  display: flex;
-  align-items: space-between;
 
-}
 .services {
   display: flex;
   justify-content: space-between;
